@@ -1,7 +1,9 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import ComponentA from "./Components/ComponentA";
-import EditComponentA from "./Components/EditComponentA";
+import HomeScreen from "./Components/HomeScreen";
+import EditAboutMe from "./Components/Edit/EditAboutMe";
+import ResumeScreen from "./Components/ResumeScreen";
+import EditSkills from "./Components/Edit/EditSkills";
 
 function App() {
   return (
@@ -9,8 +11,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<ComponentA />} />
-          <Route path="EditComponentA" element={<EditComponentA />} />
+          <Route path="/" element={<HomeScreen />} />
+          <Route path="edit-about-me" element={<EditAboutMe />} />
+          <Route path="resume" element={<ResumeScreen />} />
+          <Route path="skills" element={<EditSkills />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,30 @@
+.inputField {
+  border: none;
+  width: 375px;
+}
+
+.inputField:focus-within {
+  outline: none !important;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  border: none;
+  outline: none !important;
+}
+
+.errors {
+  color: red;
+  font-size: 13px;
+  text-align: left;
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  background: unset !important;
+  border-radius: unset !important;
+  display: block;
+}
