@@ -72,9 +72,9 @@ textarea {
 }
 
 .chips {
-  background: #147bff;
-  color: white;
-  margin-bottom: 16px;
+  background: #147bff !important;
+  color: white !important;
+  margin-bottom: 16px !important;
 }
 
 .starParentDiv {
